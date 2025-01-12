@@ -6,9 +6,9 @@ object BookTracker {
     fun addBook(title: String, author: String, year: Int) {
         if (title.isNotBlank() && author.isNotBlank()) {
             books.add(Book(title, author, year))
-            println("Książka została dodana.")
+            println("ksiazka zostala dodana")
         } else {
-            println("Tytuł i autor nie mogą być puste.")
+            println("tytul i autor nie moga byc puste")
         }
     }
 
